@@ -37,4 +37,4 @@ ggplot(week7_tbl, aes(x = q5, y = q7, col = condition)) +
     geom_jitter(width = 0.07) +
     labs(x = "Score on Q5", y = "Score on Q7", col = "Experimental Condition") +
     geom_smooth(method = "lm", se = F) +
-    theme(legend.position = "bottom", panel.background = element_blank(), legend.background = element_rect(fill=c("#E0E0E0")))
+    theme(legend.position = "bottom", panel.background = element_blank(), legend.background = element_rect(fill = "#E0E0E0"))
